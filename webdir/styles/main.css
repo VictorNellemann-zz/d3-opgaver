@@ -11,9 +11,9 @@ p {
 }
 
 h3 {
-    color: rgb(220, 220, 220);
+    color: rgb(200, 200, 200);
     margin: 0 0 15px 0;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -59,8 +59,14 @@ li a {
     text-decoration: none;
     display: block;
     padding: 15px;
+    border-radius: 5px;
     background-color: #0861ce;
 }
+
+li a:hover {
+    background-color: #003f8c;
+}
+
 
 /* CONTENT -------------------------------------------------------- */
 
