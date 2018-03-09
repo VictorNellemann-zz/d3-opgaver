@@ -1,0 +1,133 @@
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #777;
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    color: rgb(220, 220, 220);
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* LOGO -------------------------------------------------------- */
+
+header {
+    max-width: 1000px;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;    
+}
+
+#logo p {
+    font-family: Bungee, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+	font-weight: 700;
+    line-height: 0;
+    margin: 45px 0 60px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* NAVIGATION -------------------------------------------------------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    background-color: #0861ce;
+}
+
+/* CONTENT -------------------------------------------------------- */
+
+.container-flex {
+    display: flex;
+}
+
+#dataviz {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+#kpi {
+    flex-direction: column;
+}
+
+#kpi-header {
+    width: 1140px;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(220, 220, 220);
+
+}
+
+#timestamp {
+    text-align: right;
+}
+
+#kpi-graf {
+    width: 1200px;
+    height: 600px;
+    background-color: #FFF;
+}
+
+/* FOOTER -------------------------------------------------------- */
+
+#footer {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 15px 0;
+    border-top: 1px rgb(220, 220, 220) solid;
+}
+
+/* 
+#datavizcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    background-color: #FFF;
+    width: 600px;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+}
+
+#d3svg {
+    width: 600px;
+    height: 400px;
+    border: 1px #e8e8e8 dashed;
+}
+
+.red-circle {
+    fill: red;
+} */

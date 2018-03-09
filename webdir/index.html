@@ -1,0 +1,50 @@
+<!-- Todo: Fix padding-width issue med box-css - Se css bog eller W3school -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VINE Dashboards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Fugaz+One|Patua+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+    <script src="./scripts/main.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <p>Team Display KPI Dashboard</p>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li><a href="#">Time spent pr. session</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="dataviz" class="container-flex">
+        <div id="kpi" class="container-flex">
+            <div id="kpi-header" class="container-flex">
+                <div id="kpi-titel">
+                    <p>KPI: Time spent pr. session</p>
+                </div>
+                <div id="timestamp">
+                    <p>Timestamp</p>
+                </div>
+            </div>
+            <div id="kpi-legend"></div>
+            <div id="kpi-content" class="container-flex">
+                <svg id="kpi-graf">
+
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="copyright">
+            <h3>VINE Dashboards / Team Produkt KPI'er</h3>
+        </div>
+    </div>
+</body>
+</html>
